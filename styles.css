@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+
+  background-color: rgb(41, 127, 184);
+  align-items: center;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 100px;
+}
+
+.sub-container-2 h1{
+  color: whitesmoke; 
+  padding-left: 20px; 
+  font-size: 10vh;
+  border-left: 10px white solid;
+  
+}
+
+.sub-container{
+  border-radius: 50px;
+  position: relative;
+  width: 65%;
+  padding-right: 20PX;
+}
+
+.sub-container button {
+  background-color: #4a80ad;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 45px;
+  border: 1px solid ;
+  border-radius: 8px;
+}
+
+.sub-container form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 80px;
+}
+
+.sub-container input {
+  background-color: transparent;
+  border: none;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+}
